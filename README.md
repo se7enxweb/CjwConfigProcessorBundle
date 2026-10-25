@@ -1,5 +1,10 @@
 # CJW's Config-Processor Bundle
 
+This is the se7enxweb fork of the 2.x line (eZ Platform 2.5, Symfony 3.4), published as
+`se7enxweb/cjw-config-processor`. It replaces `cjw-network/cjw-config-processor`, so a project
+that requires the fork gets it under both names. It runs on PHP 7.1 to 8.5. The 3.x line and
+the original project are at [cjw-network/CjwConfigProcessorBundle](https://github.com/cjw-network/CjwConfigProcessorBundle).
+
 # Goal
 
 This Bundle has been created to serve the function of parsing / processing the existing
@@ -51,7 +56,7 @@ of the Composer documentation.
 
 * **Installing the bundle for eZ / Ibexa platform version 2.***:
   ```shell
-  $ composer require cjw-network/cjw-config-processor:2.*
+  $ composer require se7enxweb/cjw-config-processor:2.*
   ```
   * [**Next Steps and Details**](Resources/doc/installation/2.x-Installation.en.md)
 

@@ -1,7 +1,7 @@
 {
-  "name": "cjw-network/cjw-config-processor",
+  "name": "se7enxweb/cjw-config-processor",
   "type": "ezplatform-bundle",
-  "description": "Inspired by the old eZPublish Ini viewer: Parses the configuration of your Symfony server / eZ - / Ibexa platform and allows visual access to the configuration in a human readable way for a better development experience.",
+  "description": "se7enxweb fork of cjw-network/cjw-config-processor 2.x for Exponential Platform Nexus, PHP 7.1 to 8.5. Inspired by the INI viewer of the legacy kernel: parses the configuration of your Symfony server / eZ - / Ibexa platform and allows visual access to the configuration in a human readable way for a better development experience.",
   "keywords": [
     "ezplatform",
     "cjw-network",
@@ -14,7 +14,7 @@
     "settings"
   ],
   "license": "GPL-2.0-only",
-  "homepage": "https://github.com/cjw-network/CjwConfigProcessorBundle",
+  "homepage": "https://github.com/se7enxweb/CjwConfigProcessorBundle",
   "authors": [
     {
       "name": "CJW-Network",
@@ -24,8 +24,11 @@
       "name": "Frederic Bauer"
     }
   ],
+  "replace": {
+    "cjw-network/cjw-config-processor": "self.version"
+  },
   "require": {
-    "php": "^7.1"
+    "php": ">=7.1"
   },
   "minimum-stability": "dev",
   "prefer-stable": false,
